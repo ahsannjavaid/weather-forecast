@@ -3,8 +3,12 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
+First of all install all the dependencies used in this project. You can install them by running the following command in the project directory:
 
-In the project directory, you can run:
+### `npm install`
+
+
+After installing dependencies run the following command to start the application at you localhost:
 
 ### `npm start`
 
