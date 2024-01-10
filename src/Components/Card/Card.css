@@ -1,0 +1,41 @@
+.card{
+    width: 400px;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: rgba(255, 255, 255, 0.521);
+    border-color: rgba(238, 237, 237, 0.22);
+    box-shadow: 0 4px 8px 0 rgba(32, 32, 32, 0.2), 0 6px 20px 0 rgba(53, 53, 53, 0.2);
+    text-align: center;
+}
+@media(max-width:480px){
+    .card{
+        width: 300px;
+    }
+}
+.title{
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    transform: translateX(-50%)
+}
+.title p{
+    margin-top: 1rem;
+    font-size: 2.2rem;
+    font-weight: bold;
+    color: blueviolet;
+}
+.temp{
+    font-size: 2.6rem;
+    margin-bottom: 1rem;
+}
+.header{
+    color: blueviolet;
+    font-weight: bold;
+}
+.col-4{
+    padding: 0 0.2rem;
+}
+.icon {
+    margin-left: 1.5cm;
+}

@@ -1,0 +1,149 @@
+.bg-image {
+    background-image: url('https://images.unsplash.com/photo-1487621167305-5d248087c724?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1032&q=80');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.form-control, .my-btn {
+    border-color: blueviolet;
+    color: blueviolet;
+    font-weight: 600;
+    border-width: 2px;
+}
+.my-btn:hover {
+    background-color: blueviolet;
+    color: white;
+}
+
+@media only screen and (max-width: 575px) {
+    .my-btn {
+        margin-top: 10px;
+        display: block;
+        width: 100%;
+    }
+}
+
+.switch-header {
+    margin-top: 5px;
+    margin-right: 8px;
+    color: rgb(78, 78, 78);
+    font-weight: bold;
+}
+
+.five-day-btn {
+    border-radius: 1rem;
+    margin-top: 15px;
+    display: block;
+    width: 400px;
+    border-color: rgba(204, 204, 204, 0.904);
+    color: rgba(204, 204, 204, 0.904);
+    font-weight: 600;
+    border-width: 2px;
+}
+.five-day-btn:hover {
+    background-color: blueviolet;
+    color: white;
+}
+@media(max-width:480px){
+    .five-day-btn{
+        width: 300px;
+    }
+}
+.my-chart {
+    width: 420px;
+    padding: 1rem;
+    border-radius: 1rem;
+    background-color: rgba(255, 255, 255, 0.521);
+    border-color: rgba(238, 237, 237, 0.22);
+    box-shadow: 0 4px 8px 0 rgba(32, 32, 32, 0.2), 0 6px 20px 0 rgba(53, 53, 53, 0.2);
+    text-align: center;
+    margin-top: 45px;
+}
+.center-it {
+    display: flex;
+    justify-content: center;
+}
+
+/* Toggle Button */
+.knobs, .layer
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+}
+.button
+{
+    position: relative;
+    width: 76px;
+    height: 36px;
+}
+
+.button.r, .button.r .layer
+{
+    border-radius: 100px;
+}
+
+.button
+{
+    box-shadow: 0 4px 8px 0 rgba(110, 110, 110, 0.2), 0 6px 20px 0 rgba(124, 124, 124, 0.2);
+    border-radius: 2px;
+}
+
+.checkbox
+{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 3;
+}
+
+.knobs
+{
+    z-index: 2;
+}
+
+.layer
+{
+    width: 100%;
+    background-color: white;
+    transition: 0.3s ease all;
+    z-index: 1;   
+}
+
+/* Button 1 */
+#button-1 .knobs:before
+{
+    content: 'I';
+    position: absolute;
+    top: 3px;
+    left: 4px;
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    font-size: 0px;
+    background-color: blueviolet;
+    border-radius: 50%;
+    transition: 0.3s cubic-bezier(0.18, 0.89, 0.35, 1.15) all;
+}
+
+#button-1 .checkbox:checked + .knobs:before
+{
+    content: 'O';
+    left: 42px;
+    background-color: blueviolet;
+}
+
+#button-1 .checkbox:checked ~ .layer
+{
+    background-color: white;
+}
+
+#button-1 .knobs, #button-1 .knobs:before, #button-1 .layer
+{
+    transition: 0.3s ease all;
+}
