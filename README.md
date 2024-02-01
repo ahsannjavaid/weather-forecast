@@ -1,3 +1,29 @@
+# What is Weather Forecast?
+
+Assalam-u-Alaikum!
+
+Weather Forecast as the name suggests is a forecasting web application that tells about the weather of a particular geographical location.
+
+## Summary/Flow of the Project:
+
+1. Choose an input method through switch.
+2. If you chose city method, enter city name and search. Otherwise, enter latitude and longitude values and search.
+3. To know 5-day forecast, click the button below the weather card.
+
+
+# Technology
+React.js with 3rd party services.
+
+## Client/Frontend
+
+* React.js
+* Bootstrap 5
+
+## Server/Backend
+
+* 3rd party open source APIs [OpenWeather](https://openweathermap.org/)
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
