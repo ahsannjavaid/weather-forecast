@@ -11,7 +11,7 @@ Weather Forecast as the name suggests is a forecasting web application that tell
 3. To know 5-day forecast, click the button below the weather card.
 
 
-# Technology
+# Technology Used
 React.js with 3rd party services.
 
 ## Client/Frontend
